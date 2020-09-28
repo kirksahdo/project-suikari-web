@@ -304,7 +304,6 @@ function wheel(event) {
     }
     
     scrollArray(overflowing, -deltaX, -deltaY);
-    event.preventDefault();
 }
  
 /**
