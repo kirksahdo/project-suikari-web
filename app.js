@@ -1,6 +1,7 @@
 var express = require("express");
 var bodyParser = require("body-parser");
 
+const PORT = process.env.PORT || 5000;
 var app = express();
 
 
@@ -16,5 +17,5 @@ app.get('/', function(req, res){
 })
 
 
-app.listen(8080);
+app.listen(PORT);
 console.log("Servidor Online em http://127.0.1:8080");
